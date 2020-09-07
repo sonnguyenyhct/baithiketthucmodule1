@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+    <script>
+        let arrA = [1,5,3,7,8,6,4];
+        function find(a,arr) {
+            for (let count = 0; count < arr.length; count++){
+                if (a === arr[count]){
+                    return "Vị trí của số " + a + " trong mảng là : " + arr.indexOf(a);
+                }
+            }
+            return "Không tìm thấy số " + a + " trong mảng";
+        }
+        alert(find(4,arrA));
+    </script>
+</body>
+</html>

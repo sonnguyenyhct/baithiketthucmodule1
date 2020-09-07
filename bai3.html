@@ -20,14 +20,15 @@
                 }
             }
             if (number === 0){
-                alert("Không có kí tự nguyên âm trong chuỗi");
                 return false;
             }else {
-                return number;
+                return number/2;
             }
         }
         if (vowel(arr) !== false){
             alert("Số kí tự nguyên âm trong chuỗi " + arr +  " là : " + vowel(arr));
+        }else {
+            alert("Không có kí tự nguyên âm trong chuỗi");
         }
     </script>
 </body>
